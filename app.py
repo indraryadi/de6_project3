@@ -269,6 +269,6 @@ if __name__ == '__main__':
 #   print(a.head(1))
 
 
-#   insert_raw_data()
+  insert_raw_data()
   create_star_schema(schema='indra')
   insert_raw_to_warehouse(schema='indra')
