@@ -1,8 +1,8 @@
 # de6_project3
 requirements:
-pandas
-sqlalchemny
-psycopg2-basic
+pandas,
+sqlalchemny,
+psycopg2-basic,
 json
 
 Deskripsi:
