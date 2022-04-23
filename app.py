@@ -264,11 +264,6 @@ def insert_raw_to_warehouse(schema):
 
 
 if __name__ == '__main__':
-#   a=insert_raw_data()
-#   a.columns=[x.upper() for x in a.columns]
-#   print(a.head(1))
-
-
-#   insert_raw_data()
+  insert_raw_data()
   create_star_schema(schema='indra')
   insert_raw_to_warehouse(schema='indra')
