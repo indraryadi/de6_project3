@@ -264,6 +264,14 @@ def insert_raw_to_warehouse(schema):
 
 
 if __name__ == '__main__':
+<<<<<<< HEAD
+=======
+#   a=insert_raw_data()
+#   a.columns=[x.upper() for x in a.columns]
+#   print(a.head(1))
+
+
+>>>>>>> d501d5060eb392374970a6f884da1ce7d5f27d53
   insert_raw_data()
   create_star_schema(schema='indra')
   insert_raw_to_warehouse(schema='indra')
